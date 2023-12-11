@@ -1,3 +1,5 @@
+// Copyright © Alexandra Grütering, see file LICENSE.md in module root
+// License: GLP-3.0 or later
 // dune pdelab includes
 #include<dune/pdelab/function/callableadapter.hh>
 #include<dune/pdelab/gridoperator/gridoperator.hh>
