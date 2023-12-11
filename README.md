@@ -1,3 +1,4 @@
+# dune-bnb
 
 This package contains the implementation of the branch and bound algorithm in [1], 
 using the DUNE-library [2] for the discretization of the PDE.
@@ -56,7 +57,8 @@ An example of an option file example.opts is
 which
   * uses a specific compiler,
   * installs the files to a custom directory, default is /usr/local/bin and 
-  * uses specific compiler flags. 
+  * uses specific compiler flags.
+    
 You can pass the opts file to dunecontrol via the --opts option, e.g.,
 
     ./dune-common/bin/dunecontrol --opts=example.opts all
@@ -64,7 +66,7 @@ You can pass the opts file to dunecontrol via the --opts option, e.g.,
 See [7] for a more comprehensive introduction to the dune build system.
 
 
-Bibliographie
+Bibliography
 -----
 
  [1]:
