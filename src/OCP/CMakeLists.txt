@@ -1,0 +1,1 @@
+add_library(libpoly OBJECT Dmax.cc)
