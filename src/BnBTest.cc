@@ -64,7 +64,7 @@ public:
   	{
 		int dimDomain = x.size(); 
 		auto global = e.geometry().global(x);   		
-		double value = exp(global[0])*sin(M_PI*global[0]);
+		double value = exp(global[0])*sin(M_PI*global[0])+0.5;
 		return value; 
   	}
 	
