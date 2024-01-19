@@ -69,7 +69,7 @@ See [7] for a more comprehensive introduction to the dune build system.
 Bibliography
 -----
 
- [1]: C. Buchheim, A. Grütering, and C. Meyer, Parabolic optimal control problems with combinatorial switching constraints – Part III: Branch-and-bound algorithm
+ [1]: C. Buchheim, A. Grütering, and C. Meyer, Parabolic optimal control problems with combinatorial switching constraints – Part III: Branch-and-bound algorithm,  arXiV preprint arXiv:2401.10018 (2024)
  
  [2]: http://www.dune-project.org
  
