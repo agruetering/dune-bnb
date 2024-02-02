@@ -1,17 +1,17 @@
 # dune-bnb
 
-This package contains the implementation of the branch and bound algorithm in [1], 
-using the DUNE-library [2] for the discretization of the PDE.
+This package contains the implementation of the branch and bound algorithm in [BGM], 
+using the DUNE-library [1] for the discretization of the PDE.
 
 Dependencies
 ------------
 
 The currect development version of dune-bnb depends on the following software: 
 
-* PDELab library [4], the needed core libraries (dune-common, dune-geometry, dune-grid, dune-istl, dune-localfunctions) [3] 
-* and the extension libraries (dune-functions, dune-typetree) [5]; all in version 2.7.0. 
+* PDELab library [3], the needed core libraries (dune-common, dune-geometry, dune-grid, dune-istl, dune-localfunctions) [2] 
+* and the extension libraries (dune-functions, dune-typetree) [4]; all in version 2.7.0. 
  
-* The dune-uggrid module (release/2.7.0) [6]. 
+* The dune-uggrid module (release/2.7.0) [5]. 
 
 * A compiler with support for C++17, at least GCC >= 7.1 or clang >= 5.0 
 
@@ -63,22 +63,22 @@ You can pass the opts file to dunecontrol via the --opts option, e.g.,
 
     ./dune-common/bin/dunecontrol --opts=example.opts all
 
-See [7] for a more comprehensive introduction to the dune build system.
+See [6] for a more comprehensive introduction to the dune build system.
 
 
 Bibliography
 -----
 
- [1]: C. Buchheim, A. Grütering, and C. Meyer, Parabolic optimal control problems with combinatorial switching constraints – Part III: Branch-and-bound algorithm,  arXiV preprint arXiv:2401.10018 (2024)
+ [BGM]: C. Buchheim, A. Grütering, and C. Meyer, Parabolic optimal control problems with combinatorial switching constraints – Part III: Branch-and-bound algorithm,  arXiV preprint arXiv:2401.10018 (2024)
  
- [2]: http://www.dune-project.org
+ [1]: http://www.dune-project.org
  
- [3]: https://www.dune-project.org/groups/core
+ [2]: https://www.dune-project.org/groups/core
  
- [4]: https://www.dune-project.org/modules/dune-pdelab
+ [3]: https://www.dune-project.org/modules/dune-pdelab
  
- [5]: https://www.dune-project.org/groups/extension
+ [4]: https://www.dune-project.org/groups/extension
  
- [6]: https://www.dune-project.org/modules/dune-uggrid
+ [5]: https://www.dune-project.org/modules/dune-uggrid
  
- [7]: https://www.dune-project.org/doc/installation
+ [6]: https://www.dune-project.org/doc/installation
