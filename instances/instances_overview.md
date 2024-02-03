@@ -11,7 +11,7 @@ branch-and-bound algorithm  [Table 3, BGM], and
   - s\*max*: Performance of the branch-and-bound algorithm for instances generated with θ
 switching points, allowing at most σ switching [Table 4, BGM].
 
-The branch-and-bound tree in [Figure 2, BGM] is based on the instance s3max1/run4. 
+The branch-and-bound tree in [Figure 2, BGM] is based on the instance s3max1/run1. 
 
 ### Bibliography
 [BGM] C. Buchheim, A. Grütering, and C. Meyer, Parabolic optimal control problems with combinatorial switching constraints – Part III: Branch-and-bound 
