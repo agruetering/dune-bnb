@@ -213,6 +213,7 @@ int main(int argc, char** argv)
 	double T=ptree.get<double>("problem.T",(double)1.0); 
 	int timesteps= ptree.get<int>("problem.timesteps",(int)100);
 	vector<double> dt(timesteps,(double) T/timesteps);
+	double alpha=ptree.get<double>("problem.alpha", (double) 0.005);
 	int jumps=ptree.get<int>("problem.jumps",(int) 5);; 
 	int smax=ptree.get<int>("problem.smax",(int) 2);
 
