@@ -22,7 +22,7 @@ include(DuneMacros)
 
 # The directory where the example grid files used for the examples are located
 set_property(DIRECTORY APPEND PROPERTY
-  COMPILE_DEFINITIONS "PROJECT_SOURCE_DIR=\"${PROJECT_SOURCE_DIR}\"" "BNB_SOURCE_PATH=\"${PROJECT_SOURCE_DIR}/src/\"")
+  COMPILE_DEFINITIONS "PROJECT_SOURCE_DIR=\"${PROJECT_SOURCE_DIR}\"" "BNB_SOURCE_PATH=\"${PROJECT_SOURCE_DIR}/src/\"" "BNB_OUTPUT_PATH=\"${PROJECT_SOURCE_DIR}/output/\"")
 
 
 # start a dune project with information from dune.module
